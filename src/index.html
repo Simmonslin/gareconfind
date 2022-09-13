@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8"/>
 <style>body{background-color:white;}</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link href="lib/econApp-1.0.0/css/page-master.css" rel="stylesheet" />
 <link href="lib/econApp-1.0.0/css/statisticCard-master.css" rel="stylesheet" />
 <link href="lib/econApp-1.0.0/css/econData.css" rel="stylesheet" />
 <link href="lib/econApp-1.0.0/css/ebookcard.css" rel="stylesheet" />
+<link href="index.css" rel="stylesheet"/>
 <script src="App.css"></script>
 <script src="App.js"></script>
 
@@ -15,11 +17,14 @@
 <div class="page">
   <div class="header">
     <div class="header-content">
-      <div class="header-content-icon"></div>
+      <div class="header-content-icon" style="background: url(lib/econApp-1.0.0/img/ntpuecon.svg)"></div>
       <div class="header-content-text">首頁</div>
     </div>
   </div>
-  <div class="page-content"></div>
+  <div class="page-content">
+    <div id="app"></div>
+
+  </div>
   <div class="footer">
     <div class="footer-buttonHolderGraph">
       <div class="mask-btn home on">
